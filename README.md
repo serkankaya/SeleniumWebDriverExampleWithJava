@@ -8,6 +8,10 @@ OS                  : Ubuntu : 16.04 LTS
 Browser             : Firefox Mozilla 50.1.0
 Kullanılan Dil      : Java
 Junit version       : 4.12
+Geckodriver version : 0.13.0
+
+---------------------------------------------------------------------------------------------------------------
+--Ayarlamalar--
 
 Firefox ayarlaması için aşağıda linkte bulunan size uygun driver'ı indirin ;
 https://github.com/mozilla/geckodriver/releases
@@ -18,9 +22,8 @@ System.setProperty("webdriver.gecko.driver", "Driver Yolu");
 
 testCase.java dosyasını Junit ile çalıştırın.
 Test Koşturma işlemi başlayacak ...
-
-Test Senaryosu
-
+---------------------------------------------------------------------------------------------------------------
+--Test Senaryosu--
 1. http://www.n11.com <http://www.n11.com/> sitesine gelecek ve anasayfanin acildigini onaylayacak
 3. Login ekranini acip, bir kullanici ile login olacak ( daha once siteye uyeligin varsa o olabilir )
 4. Ekranin ustundeki Search alanina 'samsung' yazip Ara butonuna tiklayacak
