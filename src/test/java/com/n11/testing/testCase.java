@@ -16,6 +16,7 @@ public class testCase extends page {
 	@Test
 	public void test_1_1_WebSiteControl(){
 		driver.get(webSiteMainUrl);
+		waitForPageLoad();
 		Assert.assertTrue(driver.getTitle().equals("n11.com - Alışverişin Uğurlu Adresi"));
 		System.out.println("Web Sitesi Açıldı");
 	}
