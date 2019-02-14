@@ -34,3 +34,7 @@ Test Koşturma işlemi başlayacak ...
 8. Acilan sayfada bir onceki sayfada izlemeye alinmis urunun bulundugunu onaylayacak
 9. Favorilere alinan bu urunun yanindaki 'Kaldir' butonuna basarak, favorilerimden cikaracak
 10. Sayfada bu urunun artik favorilere alinmadigini onaylayacak.
+
+
+
+MIT License
